@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Nederlands [NL]
-Version: 2.7.1
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=429
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -398,7 +398,7 @@ $lang['Rating score, low &rarr; high'] = 'Waarderingsscore, laag &rarr; hoog';
 $lang['Visits, high &rarr; low'] = 'Bezoeken, hoog &rarr; laag';
 $lang['Visits, low &rarr; high'] = 'Bezoeken, laag %rarr; hoog';
 $lang['xsmall'] = 'XS - extra klein';
-$lang['%d rate'] = '%d tarief';
+$lang['%d rate'] = '%d stem(men)';
 $lang['Bad request'] = 'Foutief verzoek';
 $lang['Forbidden'] = 'Verboden';
 $lang['Page not found'] = 'Pagina niet gevonden';
@@ -445,3 +445,4 @@ $lang['month']['6'] = 'Juni';
 $lang['month']['7'] = 'Juli';
 $lang['month']['8'] = 'Augustus';
 $lang['month']['9'] = 'September';
+$lang['Your authentication key is no longer valid.'] = 'Uw authenticatie sleutel is niet langer geldig.';

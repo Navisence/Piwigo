@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Română [RO]
-Version: 2.7.0
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=433
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -427,3 +427,5 @@ $lang['No results for'] = 'Nici un rezultat pentru';
 $lang['Apply on properties'] = 'Aplica la proprietati';
 $lang['Album name, A &rarr; Z'] = 'Nume album, A & rarr; Z';
 $lang['Link: %s'] = 'Legatura: %s';
+$lang['Your authentication key is no longer valid.'] = '
+Cheia dvs. de autentificare nu mai este valabilă.';

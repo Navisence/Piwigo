@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Български [BG]
-Version: 2.7.1
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=510
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -445,3 +445,4 @@ $lang['month']['6'] = 'юни';
 $lang['month']['7'] = 'юли';
 $lang['month']['8'] = 'август';
 $lang['month']['9'] = 'септември';
+$lang['Your authentication key is no longer valid.'] = 'Вашият ключ да верификация вече не е активен.';

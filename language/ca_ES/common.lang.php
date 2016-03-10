@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Català [CA]
-Version: 2.7.0
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=413
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -425,3 +425,4 @@ $lang['Photo title'] = 'Títol de la foto';
 $lang['Album name, A &rarr; Z'] = 'Nom de l\'àlbum, a &rarr; Z';
 $lang['Album name, Z &rarr; A'] = 'Nom de l\'àlbum, Z &rarr; A';
 $lang['Link: %s'] = 'Enllaç: %s';
+$lang['Your authentication key is no longer valid.'] = 'D\'aquí poc temps la teva clau autenticació no serà vàlida';

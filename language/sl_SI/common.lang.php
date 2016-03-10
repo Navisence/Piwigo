@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Slovenšcina [SI]
-Version: 2.7.0
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=453
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -424,3 +424,4 @@ $lang['Apply on properties'] = 'Uporabi v lastnostih';
 $lang['Link: %s'] = 'Povezava: %s';
 $lang['Photo description'] = 'Opis slike';
 $lang['Photo title'] = 'Ime slike';
+$lang['Your authentication key is no longer valid.'] = 'Vaš avtorizacijski ključ ni več veljaven.';

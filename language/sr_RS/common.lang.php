@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Српски [SR]
-Version: 2.7.2
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=458
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -427,3 +427,4 @@ $lang['Apply on properties'] = 'Примени на особине';
 $lang['Album name, A &rarr; Z'] = 'Назив албума, А &rarr; Ш';
 $lang['Album name, Z &rarr; A'] = 'Назив албума, Ш &rarr; А';
 $lang['Link: %s'] = 'Веза: %s';
+$lang['Your authentication key is no longer valid.'] = 'Ваш кључ за проверу идентитета није више важећи.';

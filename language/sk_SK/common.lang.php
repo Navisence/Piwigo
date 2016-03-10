@@ -25,7 +25,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Slovensky [SK]
-Version: 2.7.0
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=452
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -435,3 +435,4 @@ $lang['Photo title'] = 'Názov fotky';
 $lang['Album name, Z &rarr; A'] = 'Názov albumu, Z &rarr; A';
 $lang['Album name, A &rarr; Z'] = 'Názov albumu, A &rarr; Z';
 $lang['Link: %s'] = 'Link: %s';
+$lang['Your authentication key is no longer valid.'] = 'Váš autentifikačný kľúč nie je viac platný.';

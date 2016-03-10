@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Svenska [SE]
-Version: 2.7.1
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=451
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -426,3 +426,4 @@ $lang['Photo title'] = 'Fotots titel';
 $lang['Album name, A &rarr; Z'] = 'Albumnam, A &rarr; Ö';
 $lang['Album name, Z &rarr; A'] = 'Albumnamn, Ö &rarr; A';
 $lang['Link: %s'] = 'Länk: %s';
+$lang['Your authentication key is no longer valid.'] = 'Din autenticeringsnyckel är inte längre giltig.';

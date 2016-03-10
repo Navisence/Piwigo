@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: ภาษาไทย [TH]
-Version: 2.7.1
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=519
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -34,7 +34,6 @@ $lang_info['direction'] = "ltr";
 $lang_info['code'] = "th";
 $lang_info['plupload_code'] = "th_TH";
 $lang_info['zero_plural'] = "1";
-
 
 $lang['%d album updated'] = '%d อัลบั้มได้อัพเดตแล้ว';
 $lang['%d albums updated'] = '%d อัลบั้มที่ได้อัพเดตแล้ว';
@@ -427,3 +426,4 @@ $lang['Link: %s'] = 'ลิ้งค์: %s';
 $lang['No results for'] = 'ไม่มีผลลัพธ์การค้นหาสำหรับ';
 $lang['Photo description'] = 'รายละเอียดรูปภาพ';
 $lang['Photo title'] = 'ชื่อรูปภาพ';
+$lang['Your authentication key is no longer valid.'] = 'รหัสในการตรวจสอบสิทธิ์ของคุณไม่ถูกต้อง';

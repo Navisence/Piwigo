@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Русский [RU]
-Version: 2.7.2
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=434
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -429,3 +429,4 @@ $lang['Photo title'] = 'Заголовок изображения';
 $lang['Album name, A &rarr; Z'] = 'По названиям альбомов, от A &rarr; Z';
 $lang['Album name, Z &rarr; A'] = 'По названиям альбомов, от Z &rarr; A';
 $lang['Link: %s'] = 'Ссылка: %s';
+$lang['Your authentication key is no longer valid.'] = 'Увы, Ваш ключ идентификации больше не действителен.';

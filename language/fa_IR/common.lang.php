@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: پارسی [IR]
-Version: 2.7.1
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=419
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -432,3 +432,4 @@ $lang['Album name, A &rarr; Z'] = 'نام آلبوم، به ترتیب حروف 
 $lang['Album name, Z &rarr; A'] = 'نام آلبوم، برعکسِ حروف الفبا';
 $lang['Apply on properties'] = 'تایید مشخصات';
 $lang['Link: %s'] = 'لینک: %s';
+$lang['Your authentication key is no longer valid.'] = 'کلید احراز هویت شما نامعتبر بوده و باید دوباره ارسال شود.';

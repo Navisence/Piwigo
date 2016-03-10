@@ -25,7 +25,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Česky [CZ]
-Version: 2.7.1
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=414
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -432,3 +432,4 @@ $lang['Album name, Z &rarr; A'] = 'Název alba, Z &rarr; A';
 $lang['Apply on properties'] = 'Aplikovat na vlastnosti';
 $lang['Link: %s'] = 'Odkaz: %s';
 $lang['No results for'] = 'Žádné výsledky pro';
+$lang['Your authentication key is no longer valid.'] = 'Váš autorizační klíč není nadále platný.';

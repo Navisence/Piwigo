@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Türkçe [TR]
-Version: 2.7.0
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=436
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -426,3 +426,4 @@ $lang['Album name, A &rarr; Z'] = 'Albüm adı, A &rarr; Z';
 $lang['Album name, Z &rarr; A'] = '
 Albüm adı, Z &rarr; A';
 $lang['Link: %s'] = 'Bağlantı: %s';
+$lang['Your authentication key is no longer valid.'] = 'Kimlik doğrulama anahtarınız artık geçerli değil.';

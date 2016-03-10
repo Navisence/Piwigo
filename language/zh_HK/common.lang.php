@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: 中文 (香港) [HK]
-Version: 2.7.0
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=614
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -426,3 +426,4 @@ $lang['No results for'] = '沒有結果';
 $lang['Photo description'] = '相片描述';
 $lang['Photo title'] = '相片標題';
 $lang['Link: %s'] = '連結: %s';
+$lang['Your authentication key is no longer valid.'] = '您的認證密鑰已失效。';

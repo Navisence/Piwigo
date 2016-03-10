@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Українська [UA]
-Version: 2.7.0
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=523
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -427,3 +427,4 @@ $lang['Photo title'] = 'Назва фотографії';
 $lang['Album name, A &rarr; Z'] = 'Назва альбому, А &rarr; Я';
 $lang['Album name, Z &rarr; A'] = 'Назва альбому, Я &rarr; А';
 $lang['Link: %s'] = 'Посилання: %s';
+$lang['Your authentication key is no longer valid.'] = 'Ваш ключ аутентифікації більше не дійсний.';

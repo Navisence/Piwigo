@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Dansk [DK]
-Version: 2.7.1
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=415
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -428,3 +428,4 @@ $lang['Photo title'] = 'Fototitel';
 $lang['Album name, A &rarr; Z'] = 'Albumnavn, A &rarr; Å';
 $lang['Album name, Z &rarr; A'] = 'Albumnavn, Å &rarr; A';
 $lang['Link: %s'] = 'Link: %s';
+$lang['Your authentication key is no longer valid.'] = 'Din autentifikationsnøgle er ikke længere gyldig.';

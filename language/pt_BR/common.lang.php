@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Brasil [BR]
-Version: 2.7.1
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=431
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -427,3 +427,4 @@ $lang['Photo title'] = 'Título da foto';
 $lang['Album name, A &rarr; Z'] = 'Nome do álbum, A &rarr; Z';
 $lang['Album name, Z &rarr; A'] = 'Nome do álbum, Z &rarr; A';
 $lang['Link: %s'] = 'Link: %s';
+$lang['Your authentication key is no longer valid.'] = 'Sua chave de autenticação não é mais válida.';

@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: 简体中文 [CN]
-Version: 2.7.0
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=438
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -429,3 +429,4 @@ $lang['Photo title'] = '相片标题';
 $lang['Album name, A &rarr; Z'] = '相册名称， A &rarr; Z';
 $lang['Album name, Z &rarr; A'] = '相册名称， Z &rarr; A';
 $lang['Link: %s'] = '链接： %s';
+$lang['Your authentication key is no longer valid.'] = '您的认证密钥已失效。';

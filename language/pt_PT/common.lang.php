@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Português [PT]
-Version: 2.7.1
+Version: auto
 Language URI: http://piwigo.org/ext/extension_view.php?eid=432
 Author: Piwigo team
 Author URI: http://piwigo.org
@@ -430,3 +430,4 @@ $lang['Apply on properties'] = 'Aplicar nas propriedades';
 $lang['Link: %s'] = 'Link: %s';
 $lang['Photo description'] = 'Descrição da foto';
 $lang['Photo title'] = 'Título da foto';
+$lang['Your authentication key is no longer valid.'] = 'Sua chave de autenticação não é mais válida.';

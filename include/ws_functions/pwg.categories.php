@@ -231,7 +231,7 @@ function ws_categories_getList($params, &$service)
 
   $query = '
 SELECT
-    id, name, comment, permalink,
+    id, name, comment, permalink, status,
     uppercats, global_rank, id_uppercat,
     nb_images, count_images AS total_nb_images,
     representative_picture_id, user_representative_picture_id, count_images, count_categories,
@@ -494,7 +494,7 @@ SELECT category_id, COUNT(*) AS counter
   $nb_images_of = query2array($query, 'category_id', 'counter');
 
   $query = '
-SELECT id, name, comment, uppercats, global_rank, dir
+SELECT id, name, comment, uppercats, global_rank, dir, status
   FROM '. CATEGORIES_TABLE .'
 ;';
   $result = pwg_query($query);
@@ -534,7 +534,7 @@ SELECT id, name, comment, uppercats, global_rank, dir
     'categories' => new PwgNamedArray(
       $cats,
       'category',
-      array('id', 'nb_images', 'name', 'uppercats', 'global_rank')
+      array('id', 'nb_images', 'name', 'uppercats', 'global_rank', 'status')
       )
     );
 }
@@ -591,6 +591,33 @@ function ws_categories_add($params, &$service)
  */
 function ws_categories_setInfo($params, &$service)
 {
+  // does the category really exist?
+  $query = '
+SELECT *
+  FROM '.CATEGORIES_TABLE.'
+  WHERE id = '.$params['category_id'].'
+;';
+  $categories = query2array($query);
+  if (count($categories) == 0)
+  {
+    return new PwgError(404, 'category_id not found');
+  }
+
+  $category = $categories[0];
+
+  if (!empty($params['status']))
+  {
+    if (!in_array($params['status'], array('private','public')))
+    {
+      return new PwgError(WS_ERR_INVALID_PARAM, "Invalid status, only public/private");
+    }
+
+    if ($params['status'] != $category['status'])
+    {
+      set_cat_status(array($params['category_id']), $params['status']);
+    }
+  }
+
   $update = array(
     'id' => $params['category_id'],
     );
