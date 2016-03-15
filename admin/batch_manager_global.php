@@ -432,6 +432,7 @@ $prefilters = array(
   array('ID' => 'last_import', 'NAME' => l10n('Last import')),
   array('ID' => 'no_album', 'NAME' => l10n('With no album').' ('.l10n('Orphans').')'),
   array('ID' => 'no_tag', 'NAME' => l10n('With no tag')),
+  array('ID' => 'no_rating', 'NAME' => l10n('With no rating')),
   array('ID' => 'duplicates', 'NAME' => l10n('Duplicates')),
   array('ID' => 'all_photos', 'NAME' => l10n('All'))
 );

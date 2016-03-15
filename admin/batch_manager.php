@@ -353,6 +353,17 @@ SELECT
 
     break;
 
+  case 'no_rating':
+    $query = '
+SELECT
+    id
+  FROM '.IMAGES_TABLE.'
+  WHERE rating_score is null
+;';
+    $filter_sets[] = query2array($query, null, 'id');
+
+    break;
+
 
   case 'duplicates':
     $duplicates_on_fields = array('file');
